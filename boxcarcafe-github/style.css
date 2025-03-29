@@ -1,0 +1,54 @@
+
+body {
+  font-family: 'Courier New', monospace;
+  background: #fde4e4 url('images/checkerboard-floor.png') repeat;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+.logo {
+  width: 200px;
+}
+.main-title {
+  font-size: 3rem;
+  color: #D50000;
+  text-shadow: 2px 2px white;
+}
+.subtitle {
+  color: #00796B;
+  font-size: 1.25rem;
+}
+.grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.card {
+  background-color: #E1F5FE;
+  border: 2px dashed #D50000;
+  padding: 1rem;
+  width: 300px;
+}
+.order-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #D50000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+}
